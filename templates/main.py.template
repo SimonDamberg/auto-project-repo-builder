@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+""" 
+
+TODO: Add description 
+
+"""
+
+
+if __main__ == "__name__":
+    print("Welcome to {{ project_name }}")
