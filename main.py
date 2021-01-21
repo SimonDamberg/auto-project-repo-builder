@@ -15,8 +15,7 @@ def validName(project_name):
             return False
 
 def validLanguage(project_language):
-    validLanguages = ["python"]
-    print()
+    validLanguages = ["python", "java"]
     return project_language.lower() in validLanguages
 
 
@@ -78,6 +77,10 @@ def createFile(project_name, project_language):
         readme_template = open("templates/main.py.template").read()
         string = Template(readme_template).render(project_name=project_name)
         path = "../" + project_name + "/main.py"
+    elif(project_language.lower() == "java"):
+        readme_template = open("templates/main.java.template").read()
+        string = Template(readme_template).render(project_name=project_name)
+        path = "../" + project_name + "/main.java"
     else:
         return
     file = open(path, 'x')
