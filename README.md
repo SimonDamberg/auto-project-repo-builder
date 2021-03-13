@@ -1,6 +1,6 @@
 # Automatic Project Builder
 
-An automated project repository builder that will generate a project structure typical to a programming language of your choosing!  
+An automated project repository builder that will generate a project structure typical to a programming language of your choice!  
 
 Example python project generated with the program:
 
